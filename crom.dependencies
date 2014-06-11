@@ -14,7 +14,7 @@
 	{
                 "remote": "crm",
 		"repository": "android_kernel_samsung_aries",
-		"target_path": "kernel/samsung/aries",
+		"target_path": "kernel/samsung/samsung-kernel-aries",
                 "revision": "kitkat"
 	},
 	{
