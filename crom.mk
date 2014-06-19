@@ -1,5 +1,5 @@
-# Specify phone tech before including full_phone
-$(call inherit-product, vendor/crom/config/common_gsm.mk)
+# Inherit some common C-RoM stuff.
+$(call inherit-product, vendor/crom/config/common_phone.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := galaxysmtd
@@ -10,9 +10,6 @@ TARGET_SCREEN_WIDTH := 480
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.camera.res=5MP
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := galaxysmtd
