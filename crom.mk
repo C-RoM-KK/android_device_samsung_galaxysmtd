@@ -1,18 +1,19 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+# Inherit some common C-RoM stuff.
+$(call inherit-product, vendor/crom/config/common_phone.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := GalaxyS
+PRODUCT_RELEASE_NAME := galaxysmtd
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Boot animation
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := galaxysmtd
-PRODUCT_NAME := cm_galaxysmtd
+PRODUCT_NAME := crom_galaxysmtd
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9000
 
