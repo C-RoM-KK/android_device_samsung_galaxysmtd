@@ -9,11 +9,11 @@
                 "remote": "crm",
 		"repository": "android_device_samsung_aries-common",
 		"target_path": "device/samsung/aries-common",
-                "revision": "kitkat2"
+                "revision": "cm-11.0"
 	},
 	{
-                "remote": "gh",
-		"repository": "kasperhettinga/samsung-kernel-aries",
+                "remote": "crm",
+		"repository": "samsung-kernel-aries",
 		"target_path": "kernel/samsung/aries",
                 "revision": "mackay-cm11"
 	},
