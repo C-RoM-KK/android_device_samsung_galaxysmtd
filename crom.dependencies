@@ -13,7 +13,7 @@
 	},
 	{
                 "remote": "gh",
-		"repository": "kasperhettinga/android_kernel_samsung_aries",
+		"repository": "kasperhettinga/samsung-kernel-aries",
 		"target_path": "kernel/samsung/aries",
                 "revision": "mackay-cm11"
 	},
