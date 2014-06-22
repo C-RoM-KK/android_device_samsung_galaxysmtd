@@ -9,7 +9,7 @@
                 "remote": "crm",
 		"repository": "android_device_samsung_aries-common",
 		"target_path": "device/samsung/aries-common",
-                "revision": "cm-11.0"
+                "revision": "kitkat2"
 	},
 	{
                 "remote": "crm",
@@ -22,6 +22,12 @@
 		"repository": "kasperhettinga/android_hardware_samsung",
 		"target_path": "hardware/samsung",
                 "revision": "mackay-cm11"
+	},
+	{
+                "remote": "crm",
+		"repository": "android_bootable_recovery",
+		"target_path": "bootable/recovery",
+                "revision": "kitkat"
 	},
         {
                "remote": "tm",
